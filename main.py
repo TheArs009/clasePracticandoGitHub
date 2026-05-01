@@ -18,7 +18,7 @@ from google import genai
 
 
 def format_role(role: str) -> str:
-    return "Usted" if role == "user" else "Chatbot" # comment
+    return "Usted" if role == "user" else "Chatbot" # comment 2
 
 
 def hash_password(password: str) -> str:
