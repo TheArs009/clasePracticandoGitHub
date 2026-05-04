@@ -44,4 +44,4 @@ def test_cambiar_entre_conversaciones(page: Page):
     page.click("#new-conv-btn")
     page.wait_for_timeout(200)
     items = page.locator(".conv-item")
-    expect(items).to_have_count(2)
+    expect(items).to_have_count(2) #
